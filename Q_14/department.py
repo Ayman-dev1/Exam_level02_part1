@@ -7,5 +7,5 @@ class Department:
         self.employees.append(emp_name)
 
     def display_department(self):
-        employees_str = ", ".join(self.employees)
-        return f"Department: {self.dept_name}, Employees: {employees_str}"
+        employees = ", ".join(self.employees)
+        return f"Department: {self.dept_name}, Employees: {employees}"
